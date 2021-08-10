@@ -1,0 +1,144 @@
+
+
+.carouselBIG {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+}
+
+.carouselBIG.carouselBIG-slider {
+  top: 0;
+  left: 0;
+}
+
+.carouselBIG.carouselBIG-slider .carouselBIG-fixed-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.carouselBIG.carouselBIG-slider .carouselBIG-fixed-item.with-indicators {
+  bottom: 68px;
+}
+
+.carouselBIG.carouselBIG-slider .carouselBIG-item {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carouselBIG.carouselBIG-slider .carouselBIG-item h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.carouselBIG.carouselBIG-slider .carouselBIG-item p {
+  font-size: 15px;
+}
+
+.carouselBIG .carouselBIG-item {
+  visibility: hidden;
+  padding-top: 5%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carouselBIG .carouselBIG-item > img {
+  width: 100%;
+}
+
+.carouselBIG .indicators {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.carouselBIG .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 24px 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  border-radius: 50%;
+}
+
+.carouselBIG .indicators .indicator-item.active {
+  background-color: #fff;
+}
+
+.carouselBIG.scrolling .carouselBIG-item .materialboxed,
+.carouselBIG .carouselBIG-item:not(.active) .materialboxed {
+  pointer-events: none;
+}
+
+
+/* video carrousel settings */
+.fix-videos{
+  background-color: black;
+  border: solid 10px white;
+  height: 100%;
+  width: 100%;
+}
+.fix-images{
+  max-width: 100%;
+  height: 100%;
+  
+}
+.fix-imagesmodal{
+  justify-self: center;
+  max-width: 100%;
+  max-height: 600px;
+}
+.center-imagemodal{
+  width: 100%;
+}
+/* text in modal 2 */
+.start-textmodal{
+  display: block;
+  align-self: center;
+  padding: 0px 80px;
+  height: 500px;
+}
+.start-subtext{
+  display: flex;
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  font-size: 2vw;
+}
+.line-white{
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  margin-top: 5%;
+}
+.start-subsubtext{
+  display: flex;
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  font-size: 1vw;
+  text-align: justify;
+  margin-top: 5%;
+}

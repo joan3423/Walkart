@@ -1,0 +1,73 @@
+.what-wedo-steph{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information-step{
+    display: grid;
+    width: 70%;
+    text-align: center;
+    border: solid 3px white;
+    z-index: 10;
+    position: relative;
+    
+}
+@media(max-width: 700px){
+    .information-step{
+        width: 90%;
+    }
+}
+.tittle-information-step{
+    width: 100%;
+    font-size: calc(1.7em + 1.7vw);
+    color: white;
+    font-weight: 600;
+}
+.sub-title-information-step{
+    width: 100%;
+    font-size: calc(1em + 1vw);
+    text-align: center;
+    color: white;
+}
+.white-but-contact2{
+    width: 100%;
+    border: solid 3px white;
+    color: white;
+    font-size: calc(1em + 1vw);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media(max-width: 700px){
+    .white-but-contact2{
+        width: 100%;
+        font-size: 3vw;
+        padding: 10px;
+    }
+}
+.white-but-contact2:hover{
+    background-color: white;
+    color: black;
+}
+.padding-step{
+    padding: 5% 0%;
+}
+.background-step{
+    height: 100%;
+    align-items: center;
+}
+.position-do{
+    width: 100%;
+    margin-top: -350px;
+    position: relative;
+    height: 500px;
+    display: flex;
+}
+.height-step{
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}

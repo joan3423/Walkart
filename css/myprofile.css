@@ -1,0 +1,521 @@
+body{
+    font-family: 'Rubik', sans-serif !important;
+}
+.grid-start{
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr;
+    width: 100%;
+}
+.profile-information{
+    background-color: #006c6f;
+}
+.image-user{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+}
+.theimage{
+    background-image:  url(../img/users-images/barra\ de\ vidaadentro\ \(22\).png);
+    background-size: cover;
+    border-radius: 50%;
+    width: 180px;
+    height: 100%;
+}
+.username{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    padding-bottom: 30%;
+    justify-content: center;
+    
+}
+.my-information{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-top: solid 3px white;
+    display: flex;
+    align-items: center;
+    padding: 3vw 0vw 3vw 2vw;
+}
+.text-information{
+    color: white;
+    text-decoration: none;
+}
+.sign-out{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-top: solid 3px white;
+    display: flex;
+    align-items: center;
+    padding: 1vw 0vw 1vw 2vw;
+    border-bottom: solid 3px white;
+    margin-top: 30%;
+}
+/* edits */
+.profile-edit{
+    background-color: rgb(241, 241, 241);
+    padding: 40px;
+}
+.news{
+    padding: 10px;
+    max-height: 670px;
+    background-color: white;
+    overflow-y: auto;
+    display: none;
+}
+.title-news{
+    border-bottom: solid 1.5px rgba(97, 97, 97, 0.836);
+    color: black;
+    font-weight: 600;
+    font-size: 6vw;
+    text-align: center;
+}
+.subtitle-news{
+    color: rgba(97, 97, 97, 0.836);
+    font-size: 2vw;
+    text-align: right;
+    padding: 10px;
+    border-bottom: solid 1.5px rgba(97, 97, 97, 0.836);
+}
+.title-thenews{
+    padding-top: 5%;
+    font-weight: 700;
+    color: black;
+    font-size: 3vw;
+    border: solid 3px white;
+    border-bottom: none !important;
+    border-top: none !important;
+    padding: 10px;
+}
+.content-thenews{
+    text-align: justify;
+    font-size: 2vw;
+    color: rgba(97, 97, 97, 0.836);
+    border: solid 3px white;
+    border-bottom: none !important;
+    border-top: none !important;
+    padding: 10px;
+
+}
+.img-adjust{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5% 0%;
+    border: solid 3px white;
+    border-top: none !important;
+    padding: 10px;
+}
+.img-notice{
+    width: 80%;
+    height: 500px;
+    background-image:  url(../img/about-us/img2.jpg);
+    background-size: cover;
+    border: solid 3px white;
+}
+
+/* user information */
+.information-user{
+    box-shadow: 5px 10px 18px #888888;
+    overflow-y: auto;
+    position: relative;
+    border: solid 5px white;
+    background-color: white;
+}
+.img-user-register{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.a-beforeicon{
+    color: black !important;
+    display: none !important;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+.img-user-register:hover .a-beforeicon{
+    display: flex !important;
+}
+.fa-edit{
+    color: white;
+    font-size: 50px;
+
+}
+.before-border-form{
+    padding: 20px;
+}
+.border-form{
+    border: solid 1.5px rgba(97, 97, 97, 0.836);   
+    padding: 20px 0px;
+}
+
+.bar{
+    width: 100%;
+    padding: 10px 50px;
+}
+.title-input{
+    color: rgba(97, 97, 97, 0.836);
+    font-size: 1.2vw;
+
+}
+.large-buttoninput{
+    width: 100%;
+    display: flex;
+}
+.inputs-request{
+    border: solid 1.5px rgba(97, 97, 97, 0.836);
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.buttonto-input{
+    border: solid 1.5px rgba(97, 97, 97, 0.836);
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.fa-chevron-right{
+    justify-self: right;
+    display: block;
+    align-self: center;
+}
+.buttonto-input:hover{
+    color: black;
+}
+.button-bar{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-1{
+    text-align: left;
+}
+.grid-2{
+    text-align: right;
+}
+.change-ifclass{
+    color: rgba(97, 97, 97, 0.836);
+    font-size: 2vw;
+    font-weight: 600;
+
+}
+.send-changes{
+    color: white;
+    background-color: #3a2a4e !important;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.send-changes-disabled{
+    color: white;
+    background-color: #433752a2;
+    border: none;
+    padding: 10px 30px;
+}
+.button-disabled{
+    background-color: #494252 !important;
+}
+.button-disabled:hover{
+    background-color: #494252 !important;
+}
+.send-changes:hover{
+    background-color: #271c35;
+}
+.incorrect{
+    color: black;
+    font-size: 2vw;
+    font-weight: 400;
+}
+/* alert */
+.alert{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;    
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);    
+  z-index: 100;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+}
+.box-alert{
+    width: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.icon-close{
+    text-align: right;
+}
+.fa-times-circle{
+    vertical-align: middle !important;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px 10px 10px;
+}
+.fa-check-circle{
+    font-size: 6vw;
+    color: rgb(163, 230, 30);
+}
+.text{
+    padding: 10px;
+}
+.font-alert{
+    color: black;
+    color: rgba(97, 97, 97, 0.836);
+    font-size: 1.2vw;
+    padding: 0px 50px;
+}
+.grid-phone{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+.inputs-request-selectphone{
+    border: solid 1.5px rgba(97, 97, 97, 0.836);
+    width: 100%;
+    border-right: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px 0px 0px 7px;
+}
+.inputs-request-phone2{
+    border: solid 1.5px rgba(97, 97, 97, 0.836);
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 7px 7px 0px;
+}
+.select-sim {
+    width:200px;
+    height:22px;
+    line-height:22px;
+    vertical-align:middle;
+    position:relative;
+    background:white;
+    border:1px solid #ccc;
+    overflow:hidden;
+  }
+  
+  .select-sim::after {
+    content:"▼";
+    font-size:0.5em;
+    font-family:arial;
+    position:absolute;
+    top:50%;
+    right:5px;
+    transform:translate(0, -50%);
+  }
+  
+  .select-sim:hover::after {
+    content:"";
+  }
+  
+  .select-sim:hover {
+    overflow:visible;
+  }
+  
+  .select-sim:hover .options .option label {
+    display:inline-block;
+  }
+  
+  .select-sim:hover .options {
+    background:white;
+    border:1px solid #ccc;
+    position:absolute;
+    top:-1px;
+    left:-1px;
+    width:100%;
+    height:88px;
+    overflow-y:scroll;
+  }
+  
+  .select-sim .options .option {
+    overflow:hidden;
+  }
+  
+  .select-sim:hover .options .option {
+    height:22px;
+    overflow:hidden;
+  }
+  
+  .select-sim .options .option img {
+    vertical-align:middle;
+  }
+  
+  .select-sim .options .option label {
+    display:none;
+  }
+  
+  .select-sim .options .option input {
+    width:0;
+    height:0;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+
+    display:inline-block;
+    /* "hack" para que funcione en Firefox */
+    position: absolute;
+    left: -10000px;
+  }
+  
+  .select-sim .options .option input:checked + label {
+    display:block;
+  }
+  /* alert confirmation */
+.alertconfirmation{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);    
+    z-index: 100;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.808) !important;
+  }
+  .box-alert-phone{
+    padding: 2% 0% 2% 0%;
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.text-phone{
+    margin-top: -5px;
+    padding: 2% 5%;
+    background-color: white;
+}
+.center-email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adjust-emailimg{
+    width: 10%;
+    height: 10%;
+}
+/* loader */
+.absolute-load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    height: 100%;
+}
+.preloader {
+    width: 70px;
+    height: 70px;
+    border: 10px solid #eee;
+    border-top: 10px solid #666;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .form-image{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);    
+    z-index: 100;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0.747);
+  }
+  .style-form{
+      background-color: white;
+      width: 80%;
+  }
+
+  .grid-andimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .image-profile{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-color: rgb(201, 201, 201);
+  }
+  .text-input{
+      padding: 20px 5px 20px 5px;
+      width: 100%;
+      display: grid !important;
+      grid-template-rows: 1fr 0.4fr 1.6fr;
+      height: 100%;
+      align-self: start;
+  }
+  .text-phone-2{
+    margin-top: -65px;
+    padding: 10px 20px;
+    background-color: white;
+  }

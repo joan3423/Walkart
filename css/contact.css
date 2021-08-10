@@ -1,0 +1,174 @@
+.grid-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 100px;
+    
+   
+}
+@media(max-width: 700px){
+    .grid-contact{
+        display: block;
+    }
+}
+.map{
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+}
+@media(max-width: 700px){
+    .map{
+        z-index: 10;
+        position: relative;
+    }
+}
+.contactus-text{
+    max-width: 1500px;
+    width: 100%;
+}
+.contactus-all{
+    padding: 30px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: black;
+}
+.contactus-all2{
+    padding: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #914bc8;
+    padding-bottom: 120px;
+}
+@media(max-width: 700px){
+    .contactus-all2{
+        padding-bottom: 20px;
+    }
+}
+.title-contact{
+    width: 100%;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: white;
+}
+@media(max-width: 700px){
+    .title-contact{
+        font-size: 4vw;
+    }
+}
+.location-text{
+    text-align: justify;
+    padding-top: 5%;
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: white;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+@media(max-width: 700px){
+    .location-text{
+        font-size: 2.5vw;
+    }
+}
+.buttons{
+    padding-top: 5%;
+}
+
+.whatsap-button{
+    border: solid 3px white;
+    padding: 1%;
+    width: 50%;
+    color: white;
+    font-size: 1vw;
+    background-color: rgba(255, 255, 255, 0);
+}
+@media(max-width: 700px){
+    .whatsap-button{
+        font-size: 2.5vw;
+    }
+}
+.theform{
+    padding: 0px 50px;
+}
+@media(max-width: 800px){
+    .theform{
+        padding: 0px;
+    }
+}
+.title-input{
+    color: white;
+    font-size: 1.5vw;
+    width: 100%;
+}
+@media(max-width: 700px){
+    .title-input{
+        font-size: 3vw;
+    }
+}
+@media(min-width: 1600px){
+    .title-input{
+        font-size: 1.5vw;
+    }
+}
+.inputs-request{
+    width: 100%;
+    border-radius: 0;
+    border: solid 3px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 1%;
+}
+.width-single-bar{
+    width: 100%;
+    padding-top: 5%;
+}
+.width-dobule-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 5%;
+}
+@media(max-width: 800px){
+    .width-dobule-bar{
+        display: block;
+    }
+}
+.one-bar{
+    width: 100%;
+}
+.inputs-request-big{
+    width: 100%;
+    border-radius: 0;
+    border: solid 3px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 3%;
+}
+.send{
+    width: 100%;
+    border-radius: 0;
+    border: solid 3px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 1%;
+    transition: all 0.5s;
+    
+}
+@media(min-width: 1600px){
+    .send{
+        font-size: 1vw;
+    }
+}
+.send:hover{
+    background-color: white;
+    color: black;
+}
